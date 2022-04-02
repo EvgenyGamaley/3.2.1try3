@@ -1,0 +1,9 @@
+crud\controller\UserController.class
+crud\service\UserService.class
+crud\config\AppInit.class
+crud\entity\User.class
+crud\dao\UserDao.class
+crud\dao\UserDaoImp.class
+crud\config\HiberConfig.class
+crud\service\UserServiceImpl.class
+crud\config\WebConfig.class
