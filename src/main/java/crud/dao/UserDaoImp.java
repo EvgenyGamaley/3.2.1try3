@@ -22,8 +22,8 @@ public class UserDaoImp implements UserDao {
 
     @Transactional
     @Override
-    public void delete(User user) {
-        entityManager.remove(user);
+    public void delete(Long id) {
+        entityManager.remove(entityManager.find(User.class, id));
     }
 
     @Transactional
